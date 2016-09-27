@@ -29,7 +29,7 @@ public class GhostMove : MonoBehaviour {
 		}
 	}
 
-	public float speed = 0.005f;
+	public float speed = 0.05f;
 
     // ----------------------------
     // Ghost mode variables
