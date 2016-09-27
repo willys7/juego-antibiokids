@@ -11,7 +11,7 @@ public class Pacdot : MonoBehaviour {
 		    GameObject[] pacdots = GameObject.FindGameObjectsWithTag("pacdot");
             Destroy(gameObject);
 
-		    if (pacdots.Length == 125)
+		    if (pacdots.Length == 205)
 		    {
 		        GameObject.FindObjectOfType<GameGUINavigation>().LoadLevel();
 		    }
